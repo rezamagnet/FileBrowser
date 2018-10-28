@@ -26,13 +26,13 @@
 		349A12241C70725D005435C0 /* FileListSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349A12231C70725D005435C0 /* FileListSearch.swift */; };
 		349A12261C707317005435C0 /* FileListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349A12251C707317005435C0 /* FileListTableView.swift */; };
 		349A12281C707B1A005435C0 /* FBFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349A12271C707B1A005435C0 /* FBFile.swift */; };
-		349A12321C707E86005435C0 /* documents@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349A122B1C707E86005435C0 /* documents@2x.png */; };
 		349A12331C707E86005435C0 /* file@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349A122C1C707E86005435C0 /* file@2x.png */; };
 		349A12341C707E86005435C0 /* FileBrowser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 349A122D1C707E86005435C0 /* FileBrowser.xib */; };
 		349A12351C707E86005435C0 /* folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349A122E1C707E86005435C0 /* folder@2x.png */; };
 		349A12361C707E86005435C0 /* image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349A122F1C707E86005435C0 /* image@2x.png */; };
 		349A12371C707E86005435C0 /* pdf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349A12301C707E86005435C0 /* pdf@2x.png */; };
 		349A12381C707E86005435C0 /* zip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349A12311C707E86005435C0 /* zip@2x.png */; };
+		5017023A2185DAC700A74628 /* documents@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5017023C2185DAC700A74628 /* documents@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,13 +68,13 @@
 		349A12231C70725D005435C0 /* FileListSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileListSearch.swift; sourceTree = "<group>"; };
 		349A12251C707317005435C0 /* FileListTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileListTableView.swift; sourceTree = "<group>"; };
 		349A12271C707B1A005435C0 /* FBFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBFile.swift; sourceTree = "<group>"; };
-		349A122B1C707E86005435C0 /* documents@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "documents@2x.png"; sourceTree = "<group>"; };
 		349A122C1C707E86005435C0 /* file@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file@2x.png"; sourceTree = "<group>"; };
 		349A122D1C707E86005435C0 /* FileBrowser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FileBrowser.xib; sourceTree = "<group>"; };
 		349A122E1C707E86005435C0 /* folder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "folder@2x.png"; sourceTree = "<group>"; };
 		349A122F1C707E86005435C0 /* image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image@2x.png"; sourceTree = "<group>"; };
 		349A12301C707E86005435C0 /* pdf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pdf@2x.png"; sourceTree = "<group>"; };
 		349A12311C707E86005435C0 /* zip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zip@2x.png"; sourceTree = "<group>"; };
+		5017023B2185DAC700A74628 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/documents@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,7 +184,7 @@
 		349A122A1C707E86005435C0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				349A122B1C707E86005435C0 /* documents@2x.png */,
+				5017023C2185DAC700A74628 /* documents@2x.png */,
 				349A122C1C707E86005435C0 /* file@2x.png */,
 				349A122D1C707E86005435C0 /* FileBrowser.xib */,
 				349A122E1C707E86005435C0 /* folder@2x.png */,
@@ -254,11 +254,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Roy Marmelstein";
 				TargetAttributes = {
 					344169531C67812400B93D28 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = CG752L6L86;
 						LastSwiftMigration = 0900;
 					};
 					3441695D1C67812400B93D28 = {
@@ -298,7 +299,7 @@
 				349A12361C707E86005435C0 /* image@2x.png in Resources */,
 				349A12371C707E86005435C0 /* pdf@2x.png in Resources */,
 				349A12351C707E86005435C0 /* folder@2x.png in Resources */,
-				349A12321C707E86005435C0 /* documents@2x.png in Resources */,
+				5017023A2185DAC700A74628 /* documents@2x.png in Resources */,
 				349A12381C707E86005435C0 /* zip@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +351,17 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		5017023C2185DAC700A74628 /* documents@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5017023B2185DAC700A74628 /* en */,
+			);
+			name = "documents@2x.png";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		344169661C67812400B93D28 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -363,12 +375,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -421,12 +435,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -465,7 +481,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = CG752L6L86;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 8;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
